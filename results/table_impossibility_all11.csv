@@ -1,0 +1,12 @@
+method,paradigm,caught,FP,ASR,F1,FPR
+Centroid,Spatial Geometry,7,15,1.0,0.298,0.06
+kNN Distance,Spatial Geometry,14,28,0.88,0.418,0.112
+TRAP/PCA,Topological Manifold,7,14,1.0,0.438,0.056
+C.O.R.E,Correlation,0,0,1.0,0.0,0.0
+DSV,Topological Manifold,1,7,1.0,0.05,0.028
+LPA,Dynamic Perturbation,9,15,0.96,0.273,0.06
+LVP,Lexical Projection,7,15,1.0,0.209,0.06
+Kurtosis,Statistical,8,20,0.96,0.302,0.08
+Skewness,Statistical,8,20,1.0,0.302,0.08
+Shannon Entropy,Information Theory,4,24,1.0,0.151,0.096
+Autoencoder,Non-linear Manifold,12,7,0.92,0.545,0.028

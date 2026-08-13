@@ -1,0 +1,6 @@
+method,paradigm,poison_mean,clean_mean,caught,FP,ASR,F1,FPR
+Centroid,Spatial Geometry,0.7543,0.8104,7,15,1.0,0.298,0.06
+kNN Distance,Spatial Geometry,0.2909,0.2141,14,28,0.88,0.418,0.112
+Kurtosis,Statistical,10.0992,12.4438,8,20,0.96,0.302,0.08
+Skewness,Statistical,-0.2581,0.0617,8,20,1.0,0.302,0.08
+Shannon Entropy,Information Theory,5.5622,5.5644,4,24,1.0,0.151,0.096
