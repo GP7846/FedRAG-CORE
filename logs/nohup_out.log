@@ -1,0 +1,288 @@
+nohup: ignoring input
+2026-08-13 15:12:06,060 [INFO] =================== VIPER FULL RUN STARTING ===================
+2026-08-13 15:12:06,060 [INFO] Datasets: ['scifact', 'nfcorpus'] | doc_limit=250 query_limit=60 | seeds=[13, 42, 77]
+2026-08-13 15:12:06,060 [INFO] ----- Table 1 - Main Comparison (exp1) -----
+2026-08-13 15:12:07,244 [INFO] [cache] scifact from disk
+2026-08-13 15:12:13,033 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-13 15:12:13,034 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-13 15:12:13,046 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/modules.json "HTTP/1.1 200 OK"
+2026-08-13 15:12:13,148 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-13 15:12:13,160 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-13 15:12:13,161 [INFO] Loading SentenceTransformer model from BAAI/bge-small-en-v1.5.
+2026-08-13 15:12:13,259 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-13 15:12:13,273 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-13 15:12:13,373 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-08-13 15:12:13,386 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/README.md "HTTP/1.1 200 OK"
+2026-08-13 15:12:13,499 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-13 15:12:13,511 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/modules.json "HTTP/1.1 200 OK"
+2026-08-13 15:12:13,610 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-13 15:12:13,622 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-08-13 15:12:13,723 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-08-13 15:12:13,821 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-13 15:12:13,834 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3604.65it/s]
+2026-08-13 15:12:14,256 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-08-13 15:12:14,360 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-13 15:12:14,463 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-13 15:12:14,564 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-13 15:12:14,663 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-13 15:12:14,675 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-13 15:12:14,777 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-13 15:12:14,790 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-08-13 15:12:14,894 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-13 15:12:14,907 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-08-13 15:12:15,011 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-13 15:12:15,024 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-13 15:12:15,135 [INFO] HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-08-13 15:12:15,237 [INFO] HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-13 15:12:15,425 [INFO] HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-13 15:12:15,437 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-08-13 15:12:15,543 [INFO] HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5 "HTTP/1.1 200 OK"
+2026-08-13 15:12:15,809 [INFO] Loaded embedding model 'BAAI/bge-small-en-v1.5' on cuda.
+2026-08-13 15:12:17,096 [INFO] [cache] scifact from memory
+2026-08-13 15:12:18,022 [INFO] [cache] scifact from memory
+2026-08-13 15:12:18,957 [INFO] [exp1] scifact / no_defense -> ASR=1.000 F1=0.000
+2026-08-13 15:12:18,957 [INFO] [cache] scifact from memory
+2026-08-13 15:12:19,929 [INFO] [cache] scifact from memory
+2026-08-13 15:12:20,884 [INFO] [cache] scifact from memory
+2026-08-13 15:12:21,838 [INFO] [exp1] scifact / krum -> ASR=0.960 F1=0.264
+2026-08-13 15:12:21,838 [INFO] [cache] scifact from memory
+2026-08-13 15:12:22,776 [INFO] [cache] scifact from memory
+2026-08-13 15:12:23,720 [INFO] [cache] scifact from memory
+2026-08-13 15:12:24,682 [INFO] [exp1] scifact / fltrust -> ASR=0.933 F1=0.312
+2026-08-13 15:12:24,682 [INFO] [cache] scifact from memory
+2026-08-13 15:12:25,802 [INFO] [cache] scifact from memory
+2026-08-13 15:12:26,918 [INFO] [cache] scifact from memory
+2026-08-13 15:12:28,033 [INFO] [exp1] scifact / isolation_forest -> ASR=0.987 F1=0.067
+2026-08-13 15:12:28,033 [INFO] [cache] scifact from memory
+2026-08-13 15:12:29,009 [INFO] [cache] scifact from memory
+2026-08-13 15:12:29,968 [INFO] [cache] scifact from memory
+2026-08-13 15:12:30,934 [INFO] [exp1] scifact / lof -> ASR=1.000 F1=0.200
+2026-08-13 15:12:30,934 [INFO] [cache] scifact from memory
+2026-08-13 15:12:31,964 [INFO] [cache] scifact from memory
+2026-08-13 15:12:32,988 [INFO] [cache] scifact from memory
+2026-08-13 15:12:34,022 [INFO] [exp1] scifact / strip -> ASR=0.920 F1=0.085
+2026-08-13 15:12:34,022 [INFO] [cache] scifact from memory
+2026-08-13 15:12:38,105 [INFO] [cache] scifact from memory
+2026-08-13 15:12:41,906 [INFO] [cache] scifact from memory
+2026-08-13 15:12:46,517 [INFO] [exp1] scifact / viper -> ASR=0.120 F1=0.598
+2026-08-13 15:12:46,517 [INFO] [cache] nfcorpus from disk
+2026-08-13 15:12:47,656 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:12:48,722 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:12:49,795 [INFO] [exp1] nfcorpus / no_defense -> ASR=1.000 F1=0.000
+2026-08-13 15:12:49,795 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:12:50,889 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:12:51,977 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:12:53,064 [INFO] [exp1] nfcorpus / krum -> ASR=0.960 F1=0.415
+2026-08-13 15:12:53,065 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:12:54,130 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:12:55,206 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:12:56,282 [INFO] [exp1] nfcorpus / fltrust -> ASR=0.960 F1=0.415
+2026-08-13 15:12:56,282 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:12:57,508 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:12:58,740 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:13:00,021 [INFO] [exp1] nfcorpus / isolation_forest -> ASR=0.960 F1=0.360
+2026-08-13 15:13:00,021 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:13:01,115 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:13:02,218 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:13:03,302 [INFO] [exp1] nfcorpus / lof -> ASR=1.000 F1=0.320
+2026-08-13 15:13:03,302 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:13:04,457 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:13:05,623 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:13:06,775 [INFO] [exp1] nfcorpus / strip -> ASR=0.827 F1=0.142
+2026-08-13 15:13:06,775 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:13:10,630 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:13:14,208 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:13:17,929 [INFO] [exp1] nfcorpus / viper -> ASR=0.973 F1=0.361
+2026-08-13 15:13:17,933 [INFO] [exp1] saved -> /root/VIPER/results/table1_main_comparison.csv
+2026-08-13 15:13:17,934 [INFO] exp1 DONE in 1.2 min -> 14 rows
+2026-08-13 15:13:17,934 [INFO] ----- Table 2 - Poison Ratio Sweep (exp2) -----
+2026-08-13 15:13:17,934 [INFO] [cache] scifact from memory
+2026-08-13 15:13:18,954 [INFO] [cache] scifact from memory
+2026-08-13 15:13:19,898 [INFO] [cache] scifact from memory
+2026-08-13 15:13:20,850 [INFO] [exp2] ratio=0.01 / no_defense -> ASR=1.000
+2026-08-13 15:13:20,850 [INFO] [cache] scifact from memory
+2026-08-13 15:13:24,438 [INFO] [cache] scifact from memory
+2026-08-13 15:13:27,817 [INFO] [cache] scifact from memory
+2026-08-13 15:13:31,117 [INFO] [exp2] ratio=0.01 / viper -> ASR=0.500
+2026-08-13 15:13:31,117 [INFO] [cache] scifact from memory
+2026-08-13 15:13:32,158 [INFO] [cache] scifact from memory
+2026-08-13 15:13:33,115 [INFO] [cache] scifact from memory
+2026-08-13 15:13:34,071 [INFO] [exp2] ratio=0.05 / no_defense -> ASR=1.000
+2026-08-13 15:13:34,071 [INFO] [cache] scifact from memory
+2026-08-13 15:13:37,733 [INFO] [cache] scifact from memory
+2026-08-13 15:13:41,123 [INFO] [cache] scifact from memory
+2026-08-13 15:13:44,937 [INFO] [exp2] ratio=0.05 / viper -> ASR=0.556
+2026-08-13 15:13:44,937 [INFO] [cache] scifact from memory
+2026-08-13 15:13:45,961 [INFO] [cache] scifact from memory
+2026-08-13 15:13:46,906 [INFO] [cache] scifact from memory
+2026-08-13 15:13:47,853 [INFO] [exp2] ratio=0.1 / no_defense -> ASR=1.000
+2026-08-13 15:13:47,853 [INFO] [cache] scifact from memory
+2026-08-13 15:13:51,113 [INFO] [cache] scifact from memory
+2026-08-13 15:13:55,044 [INFO] [cache] scifact from memory
+2026-08-13 15:13:58,920 [INFO] [exp2] ratio=0.1 / viper -> ASR=0.120
+2026-08-13 15:13:58,920 [INFO] [cache] scifact from memory
+2026-08-13 15:13:59,968 [INFO] [cache] scifact from memory
+2026-08-13 15:14:00,926 [INFO] [cache] scifact from memory
+2026-08-13 15:14:01,879 [INFO] [exp2] ratio=0.2 / no_defense -> ASR=1.000
+2026-08-13 15:14:01,879 [INFO] [cache] scifact from memory
+2026-08-13 15:14:05,613 [INFO] [cache] scifact from memory
+2026-08-13 15:14:09,540 [INFO] [cache] scifact from memory
+2026-08-13 15:14:13,050 [INFO] [exp2] ratio=0.2 / viper -> ASR=0.000
+2026-08-13 15:14:13,050 [INFO] [cache] scifact from memory
+2026-08-13 15:14:14,119 [INFO] [cache] scifact from memory
+2026-08-13 15:14:15,061 [INFO] [cache] scifact from memory
+2026-08-13 15:14:16,016 [INFO] [exp2] ratio=0.3 / no_defense -> ASR=1.000
+2026-08-13 15:14:16,016 [INFO] [cache] scifact from memory
+2026-08-13 15:14:20,032 [INFO] [cache] scifact from memory
+2026-08-13 15:14:23,342 [INFO] [cache] scifact from memory
+2026-08-13 15:14:27,035 [INFO] [exp2] ratio=0.3 / viper -> ASR=0.000
+2026-08-13 15:14:27,038 [INFO] [exp2] saved -> /root/VIPER/results/table2_poison_ratio.csv
+2026-08-13 15:14:27,038 [INFO] exp2 DONE in 1.2 min -> 10 rows
+2026-08-13 15:14:27,038 [INFO] ----- Table 3 - Ablation Study (exp3) -----
+2026-08-13 15:14:27,039 [INFO] [cache] scifact from memory
+2026-08-13 15:14:30,548 [INFO] [cache] scifact from memory
+2026-08-13 15:14:34,428 [INFO] [cache] scifact from memory
+2026-08-13 15:14:38,840 [INFO] [exp3] centroid_only -> ASR=0.960 F1=0.298
+2026-08-13 15:14:38,840 [INFO] [cache] scifact from memory
+2026-08-13 15:14:43,232 [INFO] [cache] scifact from memory
+2026-08-13 15:14:47,138 [INFO] [cache] scifact from memory
+2026-08-13 15:14:51,342 [INFO] [exp3] trap_only -> ASR=0.933 F1=0.392
+2026-08-13 15:14:51,342 [INFO] [cache] scifact from memory
+2026-08-13 15:14:55,309 [INFO] [cache] scifact from memory
+2026-08-13 15:14:59,807 [INFO] [cache] scifact from memory
+2026-08-13 15:15:15,126 [INFO] [exp3] core_only -> ASR=0.160 F1=0.765
+2026-08-13 15:15:15,126 [INFO] [cache] scifact from memory
+2026-08-13 15:15:19,925 [INFO] [cache] scifact from memory
+2026-08-13 15:15:26,134 [INFO] [cache] scifact from memory
+2026-08-13 15:15:35,944 [INFO] [exp3] centroid_trap -> ASR=0.813 F1=0.420
+2026-08-13 15:15:35,944 [INFO] [cache] scifact from memory
+2026-08-13 15:15:46,325 [INFO] [cache] scifact from memory
+2026-08-13 15:15:50,149 [INFO] [cache] scifact from memory
+2026-08-13 15:15:54,315 [INFO] [exp3] centroid_core -> ASR=0.120 F1=0.620
+2026-08-13 15:15:54,315 [INFO] [cache] scifact from memory
+2026-08-13 15:15:57,838 [INFO] [cache] scifact from memory
+2026-08-13 15:16:01,420 [INFO] [cache] scifact from memory
+2026-08-13 15:16:05,023 [INFO] [exp3] trap_core -> ASR=0.120 F1=0.636
+2026-08-13 15:16:05,024 [INFO] [cache] scifact from memory
+2026-08-13 15:16:09,515 [INFO] [cache] scifact from memory
+2026-08-13 15:16:13,015 [INFO] [cache] scifact from memory
+2026-08-13 15:16:16,610 [INFO] [exp3] full_viper -> ASR=0.120 F1=0.598
+2026-08-13 15:16:16,612 [INFO] [exp3] saved -> /root/VIPER/results/table3_ablation.csv
+2026-08-13 15:16:16,612 [INFO] exp3 DONE in 1.8 min -> 7 rows
+2026-08-13 15:16:16,612 [INFO] ----- Table 4 - Adaptive Attack (exp4) -----
+2026-08-13 15:16:16,613 [INFO] [cache] scifact from memory
+2026-08-13 15:16:17,574 [INFO] [cache] scifact from memory
+2026-08-13 15:16:18,511 [INFO] [cache] scifact from memory
+2026-08-13 15:16:19,459 [INFO] [exp4] standard / no_defense -> ASR=1.000
+2026-08-13 15:16:19,459 [INFO] [cache] scifact from memory
+2026-08-13 15:16:23,335 [INFO] [cache] scifact from memory
+2026-08-13 15:16:26,843 [INFO] [cache] scifact from memory
+2026-08-13 15:16:30,543 [INFO] [exp4] standard / viper -> ASR=0.120
+2026-08-13 15:16:30,543 [INFO] [cache] scifact from memory
+2026-08-13 15:16:31,578 [INFO] [cache] scifact from memory
+2026-08-13 15:16:32,520 [INFO] [cache] scifact from memory
+2026-08-13 15:16:33,476 [INFO] [exp4] gaussian_evasion / no_defense -> ASR=0.800
+2026-08-13 15:16:33,476 [INFO] [cache] scifact from memory
+2026-08-13 15:16:40,942 [INFO] [cache] scifact from memory
+2026-08-13 15:16:47,737 [INFO] [cache] scifact from memory
+2026-08-13 15:16:53,232 [INFO] [exp4] gaussian_evasion / viper -> ASR=0.000
+2026-08-13 15:16:53,233 [INFO] [cache] scifact from memory
+2026-08-13 15:16:54,288 [INFO] [cache] scifact from memory
+2026-08-13 15:16:55,244 [INFO] [cache] scifact from memory
+2026-08-13 15:16:56,209 [INFO] [exp4] cluster_mimicking / no_defense -> ASR=1.000
+2026-08-13 15:16:56,210 [INFO] [cache] scifact from memory
+2026-08-13 15:17:01,053 [INFO] [cache] scifact from memory
+2026-08-13 15:17:06,240 [INFO] [cache] scifact from memory
+2026-08-13 15:17:10,728 [INFO] [exp4] cluster_mimicking / viper -> ASR=0.680
+2026-08-13 15:17:10,728 [INFO] [cache] scifact from memory
+2026-08-13 15:17:11,778 [INFO] [cache] scifact from memory
+2026-08-13 15:17:12,750 [INFO] [cache] scifact from memory
+2026-08-13 15:17:13,784 [INFO] [exp4] low_confidence / no_defense -> ASR=1.000
+2026-08-13 15:17:13,784 [INFO] [cache] scifact from memory
+2026-08-13 15:17:18,722 [INFO] [cache] scifact from memory
+2026-08-13 15:17:23,242 [INFO] [cache] scifact from memory
+2026-08-13 15:17:28,448 [INFO] [exp4] low_confidence / viper -> ASR=0.000
+2026-08-13 15:17:28,504 [INFO] [exp4] saved -> /root/VIPER/results/table4_adaptive_attack.csv
+2026-08-13 15:17:28,504 [INFO] exp4 DONE in 1.2 min -> 8 rows
+2026-08-13 15:17:28,504 [INFO] ----- Table 5 - Scalability (exp5) -----
+2026-08-13 15:17:28,505 [INFO] [cache] scifact from memory
+2026-08-13 15:17:29,548 [INFO] [cache] scifact from memory
+2026-08-13 15:17:33,618 [INFO] [cache] scifact from memory
+2026-08-13 15:17:38,254 [INFO] [exp5] clients=5 -> ASR=0.067 F1=0.601
+2026-08-13 15:17:38,254 [INFO] [cache] scifact from memory
+2026-08-13 15:17:42,755 [INFO] [cache] scifact from memory
+2026-08-13 15:17:47,707 [INFO] [cache] scifact from memory
+2026-08-13 15:17:52,223 [INFO] [exp5] clients=10 -> ASR=0.120 F1=0.598
+2026-08-13 15:17:52,223 [INFO] [cache] scifact from memory
+2026-08-13 15:17:56,735 [INFO] [cache] scifact from memory
+2026-08-13 15:18:01,444 [INFO] [cache] scifact from memory
+2026-08-13 15:18:06,304 [INFO] [exp5] clients=20 -> ASR=0.120 F1=0.611
+2026-08-13 15:18:06,304 [INFO] [cache] scifact from memory
+2026-08-13 15:18:10,815 [INFO] [cache] scifact from memory
+2026-08-13 15:18:15,452 [INFO] [cache] scifact from memory
+2026-08-13 15:18:28,846 [INFO] [exp5] clients=50 -> ASR=0.120 F1=0.617
+2026-08-13 15:18:28,847 [INFO] [exp5] saved -> /root/VIPER/results/table5_scalability.csv
+2026-08-13 15:18:28,848 [INFO] exp5 DONE in 1.0 min -> 4 rows
+2026-08-13 15:18:28,848 [INFO] ----- Table 6 - Retrieval Quality (exp6) -----
+2026-08-13 15:18:28,848 [INFO] [cache] scifact from memory
+2026-08-13 15:18:29,905 [INFO] [cache] scifact from memory
+2026-08-13 15:18:30,882 [INFO] [cache] scifact from memory
+2026-08-13 15:18:31,840 [INFO] [exp6] scifact / no_defense -> Recall@5=0.800
+2026-08-13 15:18:31,840 [INFO] [cache] scifact from memory
+2026-08-13 15:18:36,538 [INFO] [cache] scifact from memory
+2026-08-13 15:18:41,026 [INFO] [cache] scifact from memory
+2026-08-13 15:18:47,723 [INFO] [exp6] scifact / viper -> Recall@5=0.756
+2026-08-13 15:18:47,723 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:18:48,868 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:18:50,014 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:18:51,166 [INFO] [exp6] nfcorpus / no_defense -> Recall@5=0.294
+2026-08-13 15:18:51,166 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:18:59,115 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:19:06,615 [INFO] [cache] nfcorpus from memory
+2026-08-13 15:19:13,310 [INFO] [exp6] nfcorpus / viper -> Recall@5=0.314
+2026-08-13 15:19:13,312 [INFO] [exp6] saved -> /root/VIPER/results/table6_retrieval_quality.csv
+2026-08-13 15:19:13,312 [INFO] exp6 DONE in 0.7 min -> 4 rows
+2026-08-13 15:19:13,312 [INFO] ----- Table 7 - Computational Cost (exp7) -----
+2026-08-13 15:19:13,312 [INFO] [cache] scifact from memory
+2026-08-13 15:19:14,362 [INFO] [cache] scifact from memory
+2026-08-13 15:19:15,359 [INFO] [cache] scifact from memory
+2026-08-13 15:19:16,364 [INFO] [exp7] no_defense -> 0.0000 ms/vector
+2026-08-13 15:19:16,364 [INFO] [cache] scifact from memory
+2026-08-13 15:19:17,385 [INFO] [cache] scifact from memory
+2026-08-13 15:19:18,385 [INFO] [cache] scifact from memory
+2026-08-13 15:19:19,402 [INFO] [exp7] krum -> 0.0908 ms/vector
+2026-08-13 15:19:19,402 [INFO] [cache] scifact from memory
+2026-08-13 15:19:20,411 [INFO] [cache] scifact from memory
+2026-08-13 15:19:21,403 [INFO] [cache] scifact from memory
+2026-08-13 15:19:22,393 [INFO] [exp7] fltrust -> 0.0013 ms/vector
+2026-08-13 15:19:22,393 [INFO] [cache] scifact from memory
+2026-08-13 15:19:23,613 [INFO] [cache] scifact from memory
+2026-08-13 15:19:24,847 [INFO] [cache] scifact from memory
+2026-08-13 15:19:26,120 [INFO] [exp7] isolation_forest -> 0.8195 ms/vector
+2026-08-13 15:19:26,121 [INFO] [cache] scifact from memory
+2026-08-13 15:19:27,133 [INFO] [cache] scifact from memory
+2026-08-13 15:19:28,144 [INFO] [cache] scifact from memory
+2026-08-13 15:19:29,167 [INFO] [exp7] lof -> 0.0554 ms/vector
+2026-08-13 15:19:29,167 [INFO] [cache] scifact from memory
+2026-08-13 15:19:30,272 [INFO] [cache] scifact from memory
+2026-08-13 15:19:31,372 [INFO] [cache] scifact from memory
+2026-08-13 15:19:32,524 [INFO] [exp7] strip -> 0.3662 ms/vector
+2026-08-13 15:19:32,524 [INFO] [cache] scifact from memory
+2026-08-13 15:19:38,413 [INFO] [cache] scifact from memory
+2026-08-13 15:19:45,814 [INFO] [cache] scifact from memory
+2026-08-13 15:19:52,925 [INFO] [exp7] viper -> 20.8460 ms/vector
+2026-08-13 15:19:52,927 [INFO] [exp7] saved -> /root/VIPER/results/table7_computational_cost.csv
+2026-08-13 15:19:52,927 [INFO] exp7 DONE in 0.7 min -> 7 rows
+2026-08-13 15:19:52,927 [INFO] =================== VIPER RUN COMPLETE ===================
+2026-08-13 15:19:52,927 [INFO] Total time: 7.8 minutes
+2026-08-13 15:19:52,927 [INFO] Summary:
+2026-08-13 15:19:52,927 [INFO]   exp1   Table 1 - Main Comparison           OK       1.2 min    14
+2026-08-13 15:19:52,927 [INFO]   exp2   Table 2 - Poison Ratio Sweep        OK       1.2 min    10
+2026-08-13 15:19:52,927 [INFO]   exp3   Table 3 - Ablation Study            OK       1.8 min    7
+2026-08-13 15:19:52,927 [INFO]   exp4   Table 4 - Adaptive Attack           OK       1.2 min    8
+2026-08-13 15:19:52,927 [INFO]   exp5   Table 5 - Scalability               OK       1.0 min    4
+2026-08-13 15:19:52,928 [INFO]   exp6   Table 6 - Retrieval Quality         OK       0.7 min    4
+2026-08-13 15:19:52,928 [INFO]   exp7   Table 7 - Computational Cost        OK       0.7 min    7
+2026-08-13 15:19:52,928 [INFO] All CSV tables written to: /root/VIPER/results
